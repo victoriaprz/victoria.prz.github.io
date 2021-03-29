@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&display=swap');
+
+h1 {
+  color: #ff9292;
+  background-color: #ffe8e842;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 45px;
+  border-radius : 10px;
+}
+
+h2 {
+  color: #ff9292;
+  font-family:Lobster;
+  font-size: 30px;
+}
+
+h3{
+  color: #350b40;
+  font-family:PT Sans Narrow;
+  font-size : 22px;
+}
+
+body {
+  font-family: PT Sans Narrow;
+  background-color: white;
+}
+
+p{
+  color: #350b40;
+}
+
+ul{
+  color: #350b40;
+}
+.card{
+  border : 1px solid #ffe8e842;
+  margin : 20px 30px;
+  padding : 10px;
+  background-color: #ffe8e8;
+  border-radius : 5px;
+  box-shadow: -7px -5px #ff929275;
+}
+
+div:hover{
+  box-shadow: -8px -8px #ff9292;
+  color: #ffe8e8;
+}
+
+.btn-pink{
+  background-color:#ff929275;
+  padding: 2px;
+  border-radius: 8px;
+  text-decoration: none;  
+  color: white;
+}
+
+.bg-darkpink{
+  background-color: #ff9292;
+}
+
+.center{
+  text-align: center;
+}  
+
+.rounded{
+  border-radius: 500px;
+  height: 200px;
+  width : 200px
+}
+
+.card-img{
+  width:30%;
+  background-color: grey;
+  color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-shadow: 2px 2px 3px white;
+}
+
+.card-container{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.background1{
+  background-image:url('https://images.unsplash.com/photo-1606422360319-c1512f54d1b9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhZGlvfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-size:cover;
+  background-position:center;
+  Width:40vh;
+  height:50vh;
+}
+
+.background2{
+  background-image:url('https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-size:cover;
+  background-position:center;
+  Width:40vh;
+  height:50vh;
+}
+
+.background3{
+  background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8d2VifGVufDB8fDB8&auto=format&fit=crop&w=800&q=60');
+  background-size:cover;
+  background-position:center;
+  Width:40vh;
+  height:50vh;
+}
+
+
+
+
